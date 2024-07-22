@@ -5,6 +5,8 @@ body {
  font-family: 'Roboto', sans-serif;
  background: url("https://zupimages.net/up/24/18/ej1y.png") no-repeat center fixed;
  background-size: cover;
+ background-repeat: no-repeat, no-repeat, no-repeat;
+ background-position: center;
  text-align: center;
 }
 
