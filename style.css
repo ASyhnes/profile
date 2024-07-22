@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background: url("https://zupimages.net/up/24/18/ej1y.png") no-repeat center fixed;
+ background-size: cover;
+ text-align: center;
+}
+
+div {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-radius: 20px;
+ box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.137), rgba(75, 74, 74, 0.3) 0px 19px 38px, rgba(20, 169, 214, 0.22) 0px 15px 12px;
+ background: rgba(253, 255, 255, 0.11);
+ border-radius: 16px;
+ backdrop-filter: blur(2px);
+ -webkit-backdrop-filter: blur(1px);
+ border: 1px solid rgba(255, 255, 255, 0.03);
+ padding: 20px;
+ margin: 20px auto;
+ max-width: 80%;
+ text-align: center;
+}
+
+.portrait {
+  border-radius: 50%;
+  border: 2px solid #272727de;
+  height: 30vh;
+  width: 30vh;
+  object-fit: cover;
+  box-shadow:
+  0.5px 3.3px 2px rgba(0, 0, 0, 0.087),
+  1.2px 8.3px 5px rgba(0, 0, 0, 0.124),
+  2.5px 17px 10.1px rgba(0, 0, 0, 0.156),
+  5.1px 35px 20.8px rgba(0, 0, 0, 0.193),
+  14px 96px 57px rgba(0, 0, 0, 0.28);
+}
+
+.passion {
+    text-align: left;
+  }
+
+h1 {
+ 'Roboto', sans-serif;
+ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+p {
+ line-height: 1.5;
+}
+
+a {
+ display: inline-block;
+ margin: 10px;
+ padding: 3vw;
+ text-decoration: none;
+ border-radius: 10px;
+ transition: all 0.5s ease-in-out;
+ font-family: 'Roboto', sans-serif;
+ background-color: rgba(241, 243, 248, 0.233);
+ color: rgb(0, 0, 0);
+ border: 2px solid rgba(0, 0, 0, 0.24);
+ font-weight: bold;
+ text-align: center;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(5px);
+}
+
+a:hover {
+ background-color: rgba(241, 243, 248, 0.404);
+ color: rgb(0, 0, 0);
+ text-decoration: none;
+ border: 2px solid rgba(0, 0, 0, 0.24);
+ border-radius: 10px;
+ font-weight: bold;
+ text-align: center;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(5px);
+ transform: scale(1.1);
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
